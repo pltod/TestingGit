@@ -7,6 +7,7 @@ Repository for testing Git commands
 #Commands
 
 ##Create Git Projects
+
 git init 			-> manage existing project with git
 
 git clone [URL]		-> clone project to work with
@@ -25,23 +26,25 @@ tracked - already added with 'git add' command
 untracked - use 'git add' to mark changes for commitment (staged state)
 
 
-'git status' 					- shows the states of the files
+some commands
 
-'git add *'						- mark all modified and new files for commit (make them in staged state)
+	'git status' 					- shows the states of the files
 
-'git diff' 						- shows what is changed but still unstaged
+	'git add *'						- mark all modified and new files for commit (make them in staged state)
 
-'git diff --staged' 			- shows what is staged
+	'git diff' 						- shows what is changed but still unstaged
 
-'git commit -m "first commit"' 	- do commit files in the git repository with comment
+	'git diff --staged' 			- shows what is staged
 
-'git commit -a'					- do commit even unstaged files
+	'git commit -m "first commit"' 	- do commit files in the git repository with comment
+
+	'git commit -a'					- do commit even unstaged files
 
 ##Ignoring Files
 
 Put patterns for file ignoring inside .gitignore
 
-## Synchronize with remote location
+## Synchronize With Remote Location
 
 if origine still does not exists do: 
 
