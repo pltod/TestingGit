@@ -39,6 +39,11 @@ some commands
 	'git commit -m "first commit"' 	- do commit files in the git repository with comment
 
 	'git commit -a'					- do commit even unstaged files
+	
+	'git rm' 						- ready for commit after it has been deleted
+	
+	'git rm -f'						- force the deletion if you have pending changes
+	
 
 ##Ignoring Files
 
