@@ -30,7 +30,7 @@ some commands
 
 	'git status' 					- shows the states of the files
 
-	'git add *'						- mark all modified and new files for commit (make them in staged state)
+	'git add .'						- mark all modified and new files for commit (make them in staged state)
 
 	'git diff' 						- shows what is changed but still unstaged
 
@@ -51,10 +51,18 @@ Put patterns for file ignoring inside .gitignore
 
 ## Synchronize With Remote Location
 
-if origine still does not exists do: 
+if 'origine' still does not exists do: 
 
 	git remote add origin [location] e.g. location = https://github.com/pltod/dependency-management.git
 	 
 and push the files:
 
 	git push origin master
+
+if you have forked the repo and want to take the latest changes add 'upstream':
+	
+	git remote add upstream 'original location'
+
+and take changes with:
+	
+	git fetch upstream
