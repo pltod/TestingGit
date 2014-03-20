@@ -1,7 +1,12 @@
-Testing Git
-===========
+**STATE**
 
-Repository for testing Git commands
+> RARELY USED
+
+
+**PURPOSE**
+
+
+> Repository for experimenting with git workflows and documenting git commands
 
 
 #Commands
